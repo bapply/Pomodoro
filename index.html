@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bttn.css">
+  <link rel="stylesheet" href="./css/customize.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+  <h1 id="timer"
+    data-stop="Go for it!"
+    data-pause="WTF are you waiting for?"
+    data-relax="Have a life for %m:%s"
+    data-active="%m:%s"></h1>
+  <h2 id="count" data-always="Pomodoro #%count"></h2>
+  <div class="row">
+    <button id="start"
+      data-hide="active,relax"
+      data-stop="Begin the day"
+      data-pause="Shall we?"
+      class="bttn-pill bttn-lg bttn-primary bttn-block  bttn-no-outline"></button>
+  </div>
+  <div class="row">
+    <button id="pause"
+      data-hide="stop,pause,relax"
+      data-active="If you need to pause, just be quick!"
+      class="bttn-stretch bttn-lg bttn-warning bttn-block bttn-no-outline"></button>
+  </div>
+  <div class="row">
+    <button id="stop"
+      data-hide="stop"
+      data-pause="I won't judge you"
+      data-active="Are you done?"
+      data-relax="Are you done?"
+      class="bttn-stretch bttn-lg bttn-danger bttn-block bttn-no-outline"></button>
+  </div>
+  <script src="build/index.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-86272672-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

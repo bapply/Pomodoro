@@ -1,0 +1,23 @@
+h1, h2, button {
+  font-family: 'Quicksand', 'arial', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row {
+    width: 40rem;
+    margin: 1rem auto;
+}
+#timer {
+    font-size: 10vh;
+    line-height: 0;
+    margin: 10vh 5vh;
+    text-align: center;
+    color: #1d89ff;
+}
+#count {
+    font-size: 3vh;
+    line-height: 0;
+    margin-bottom: 60vh;
+    text-align: center;
+    color: #006de3;
+}
