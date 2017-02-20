@@ -3,4 +3,3 @@ rethinkdb_data
 .hz/secrets.toml
 node_modules
 .vscode
-build/
